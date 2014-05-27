@@ -1,0 +1,12 @@
+Dependency:
+
+- apt (libfile-fcntllock-perl)
+- aptdaemon (silly-broken)
+
+Permission denied:
+
+- aptdaemon
+
+Errors:
+
+- autopkgtest (regex in assert, unicode)

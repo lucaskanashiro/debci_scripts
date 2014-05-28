@@ -97,7 +97,7 @@ foreach (@prefix){
 					$finder->save_content($filename, binmode => ':raw', decoded_by_headers => 1);
 
 					$finder->get($url_autopkg_log_file);
-					$filename = $_ . "-autopkg-fail.log";
+					$filename = $_ . "-autopkg-tmpfail.log";
 					$finder->save_content($filename, binmode => ':raw', decoded_by_headers => 1);
 				}
 			}
